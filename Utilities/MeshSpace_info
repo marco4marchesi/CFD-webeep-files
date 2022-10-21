@@ -1,0 +1,6 @@
+MeshSpace: computation of progression given two parameters.
+
+MeshSpace is devised by Marcus Hartinger at Imperial College. 
+
+You can find the code and some explanations here:
+https://www.cfd-online.com/Forums/openfoam-meshing/61785-blockmesh-grading-calculator.html
