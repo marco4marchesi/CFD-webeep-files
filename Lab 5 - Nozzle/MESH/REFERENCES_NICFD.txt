@@ -1,0 +1,15 @@
+References useful for this tutorial
+
+1) Paper with the experimental data:
+Spinelli et al. "Experimental evidence of non-ideal compressible effects in expanding flow of a high molecular complexity vapor". Experiments in Fluids, 59(126), 2018.
+https://link.springer.com/article/10.1007/s00348-018-2578-0
+
+2) Paper with thermodynamic data for MDM:
+Colonna, Nannan, Guardone. "Multiparameter equations of state for siloxanes: [(CH3)3-Si-O1/2]2-[O-Si-(CH3)2]i=1,…,3, and [O-Si-(CH3)2]6". Fluid Phase Equilibria, 263(2), 2008.
+File: ColonnaEtAl-FPE-2008.pdf
+Link: https://www.sciencedirect.com/science/article/pii/S0378381207006358?via%3Dihub
+
+3) With a section about Riemann Boundary Conditions (Sec II.D)
+Vitale et al. "Extension of the SU2 Open Source CFD code to the simulation of turbulent flows of fluids modelled with complex thermophysical laws". In Proceedings of AIAA Aviation Forum, 2015.
+File: VitaleEtAl-AIAA-2015.pdf
+Link: https://arc.aiaa.org/doi/pdf/10.2514/6.2015-2760
