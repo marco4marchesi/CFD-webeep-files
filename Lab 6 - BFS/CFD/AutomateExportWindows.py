@@ -27,10 +27,10 @@ passArrays1.PointDataArrays = ['Density', 'Eddy_Viscosity', 'Heat_Flux', 'Lamina
 x_vec = [-0.8, -0.4, 0,    0.05,     0.1,     0.2,     0.3,     0.5,       1,     1.4] 
 y_vec1 = [0,    0,   0, -0.0267, -0.0267, -0.0267, -0.0267, -0.0267, -0.0267, -0.0267]
 
-setFolder="folder1" #the folder must exist in this way, it is possible to write something like os.mkdir, but up to now it returns access denied
+path = "C:/Users/marco/Desktop/UNI/2 MAGISTRALE/CFD/CFD-webeep-files/Lab 6 - BFS/CFD"
 for i in range(len(x_vec)) :
     plotOverLine1.Point1 = [x_vec[i], y_vec1[i], 0 ]
     plotOverLine1.Point2 = [x_vec[i], 0.04, 0 ]
-    writer = CreateWriter('./bfsSimulationData_x{0}.csv')
+    writer = CreateWriter('./bfsSimulationData_x{0}.csv'.format(x_vec[i]))
     writer.UpdatePipeline()
-    SaveData("/simulation_x{0}".format(x_vec[i]), proxy=plotOverLine1, PointDataArrays=passArrays1)
+    SaveData(path + "/plotOverLine_x{0}.csv".format(x_vec[i]), proxy=plotOverLine1)
