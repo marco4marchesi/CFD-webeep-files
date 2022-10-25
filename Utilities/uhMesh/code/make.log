@@ -1,0 +1,2 @@
+(/usr/bin/gfortran -c -Bstatic -DCONVERT_BIG -DMAIN_UCASE -O3 -I../incl/  init_data.f90)
+Makefile:74: recipe for target 'init_data.o' failed
